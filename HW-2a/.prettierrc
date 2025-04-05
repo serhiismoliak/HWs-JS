@@ -1,0 +1,10 @@
+{
+  "semi": true,               // Adds semicolons at the end of statements.
+  "singleQuote": true,        // Prefers single quotes for strings.
+  "tabWidth": 2,              // Uses 2 spaces for indentation.
+  "trailingComma": "all",     // Adds trailing commas wherever possible.
+  "bracketSpacing": true,     // Adds spaces between brackets in object literals.
+  "arrowParens": "always",    // Always includes parentheses around arrow function parameters.
+  "jsxSingleQuote": false,    // Uses double quotes for JSX attributes.
+  "endOfLine": "lf"           // Ensures consistent line endings (LF).
+}
