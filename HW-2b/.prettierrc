@@ -6,5 +6,5 @@
   "bracketSpacing": true,
   "arrowParens": "always",
   "jsxSingleQuote": false,
-  "endOfLine": "lf"
+  "endOfLine": "lf" 
 }
