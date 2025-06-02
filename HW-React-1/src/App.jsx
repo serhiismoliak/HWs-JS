@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import userData from './userData.json'
-import Profile from './Profile.jsx'
+import friends from './friends.json'
+import Profile from './components/Profile.jsx'
+import FriendList from "./components/FriendList.jsx"
+
 function App() {
 
   return (
@@ -12,6 +15,7 @@ function App() {
       avatar={userData.avatar}
       stats={userData.stats}
       />  
+      <FriendList friends={friends} className="p-2"/>
     </>
   )
 }
